@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const primaryIndigo = "#202E78";
 
-const Button = styled.button`
+export const Button = styled.button`
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
   border: none;
@@ -20,11 +20,12 @@ export const PrimaryButton = styled(Button)`
 `;
 
 export const SecondaryButton = styled(Button)`
-  background-color: ${primaryIndigo};
-  color: white;
+  background: none;
+  color: ${primaryIndigo};
+  border: 2px solid ${primaryIndigo};
 `;
 
 export const TertiaryButton = styled(Button)`
-  background-color: ${primaryIndigo};
-  color: white;
+  background: none;
+  color: ${primaryIndigo};
 `;
