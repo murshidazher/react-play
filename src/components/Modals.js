@@ -1,8 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+import { animated, useSpring } from "react-spring";
 import { typeScale, primaryFont } from "../utils";
 import { Illustrations, CloseIcon } from "../assets";
-import { PrimaryButton } from "./Buttons";
+import { PrimaryButton, SecondaryButton } from "./Buttons";
+import { EmailInput, PasswordInput } from "./TextFields";
+
+const getAnimation = showModal => {
+  // showModal ? :- if the modal is visible
+  // show the modal fade in and slide in or slide out and fade out
+  return {
+    opacity: showModal ? 1 : 0,
+    transform: showModal ? `translateY(0)` : `translateY(-200%)`
+  };
+};
 
 const ModalWrapper = styled.div`
   width: 800px;
@@ -48,6 +59,7 @@ const CloseModalButton = styled.button`
 
 export const SignUpModal = ({ showModal, setShowModal }) => {
   return (
+    <animated.div style={useSpring(getAnimation(showModal))}>
       <ModalWrapper>
         <img src={Illustrations.SignUp} alt="Sign up for an account!" />
         <ModalHeader>Sign Up</ModalHeader>
@@ -64,5 +76,29 @@ export const SignUpModal = ({ showModal, setShowModal }) => {
           <CloseIcon />
         </CloseModalButton>
       </ModalWrapper>
+    </animated.div>
   );
 };
+
+export const SignInModal = ({ showModal, setShowModal }) => (
+  <animated.div style={useSpring(getAnimation(showModal))}>
+    <ColumnModalWrapper>
+      <div>
+        <ModalHeader>Sign In</ModalHeader>
+        <EmailInput label="Email" placeholder="emmabostian@gmail.com" />
+        <PasswordInput label="Password" />
+        <SecondaryButton style={{ margin: "16px 16px 0 0" }}>
+          Sign Up
+        </SecondaryButton>
+        <PrimaryButton>Sign In</PrimaryButton>
+      </div>
+      <img src={Illustrations.SignIn} alt="Sign in to your account" />
+      <CloseModalButton
+        aria-label="Close modal"
+        onClick={() => setShowModal(false)}
+      >
+        <CloseIcon />
+      </CloseModalButton>
+    </ColumnModalWrapper>
+  </animated.div>
+);

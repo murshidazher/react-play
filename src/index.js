@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle, defaultTheme, darkTheme } from "./utils";
-
-import {PrimaryButton, SecondaryButton, TertiaryButton} from "./components/Buttons";
+import { SignUpModal, PrimaryButton } from "./components";
 
 const App = () => {
   const [useDarkTheme, setUseDarkTheme] = useState(false);
-  
+  const [showModal, setShowModal] = useState(false);
   return (
     <ThemeProvider theme={useDarkTheme ? darkTheme : defaultTheme}>
       <button
@@ -22,7 +21,14 @@ const App = () => {
       >
         Default theme
       </button>
-      <div style={{
+      <PrimaryButton
+        style={{ margin: "0 16px" }}
+        onClick={() => setShowModal(!showModal)}
+      >
+        Show modal
+      </PrimaryButton>
+      <div
+        style={{
           background: useDarkTheme
             ? defaultTheme.primaryColor
             : darkTheme.primaryColor,
@@ -31,14 +37,14 @@ const App = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-around"
-        }}>
-        <PrimaryButton>Hello World</PrimaryButton>
-        <SecondaryButton>Hello World</SecondaryButton>
-        <TertiaryButton>Hello World</TertiaryButton>
+        }}
+      >
+        <SignUpModal showModal={showModal} setShowModal={setShowModal} />
+
         <GlobalStyle />
       </div>
     </ThemeProvider>
   );
 };
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+render(<App />, document.querySelector("#root"));
