@@ -32,9 +32,8 @@ const App = () => {
           alignItems: "center",
           justifyContent: "space-around"
         }}>
-        <PrimaryButton modifiers="small">Hello World</PrimaryButton>
         <PrimaryButton>Hello World</PrimaryButton>
-        <SecondaryButton modifiers={["large", "warning"]}>Hello World</SecondaryButton>
+        <SecondaryButton>Hello World</SecondaryButton>
         <TertiaryButton>Hello World</TertiaryButton>
         <GlobalStyle />
       </div>
