@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle, defaultTheme, darkTheme } from "./utils";
 import { SignUpModal, PrimaryButton } from "./components";
@@ -47,4 +47,4 @@ const App = () => {
   );
 };
 
-render(<App />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector("#root"));
