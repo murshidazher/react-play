@@ -8,7 +8,7 @@ const App = () => (
   <>
     <PrimaryButton modifiers="small">Hello World</PrimaryButton>
     <PrimaryButton>Hello World</PrimaryButton>
-    <SecondaryButton modifiers={["large"]}>Hello World</SecondaryButton>
+    <SecondaryButton modifiers={["large", "warning"]}>Hello World</SecondaryButton>
     <TertiaryButton>Hello World</TertiaryButton>
     <GlobalStyle />
   </>

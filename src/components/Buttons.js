@@ -13,6 +13,36 @@ export const BUTTON_MODIFIERS = {
     height: 3.8rem;
     padding: 8px 16px;
     font-size: ${typeScale.header5};
+  `,
+  warning: () => `
+    background-color: ${defaultTheme.status.warningColor};
+    color: ${defaultTheme.textColorInverted};
+    &:hover, &:focus {
+      background-color: ${defaultTheme.status.warningColorHover};
+    }
+    &:active {
+      background-color: ${defaultTheme.status.warningColorActive};
+    }
+  `,
+  error: () => `
+    background-color: ${defaultTheme.status.errorColor};
+    color: ${defaultTheme.textColorInverted};
+    &:hover {
+      background-color: ${defaultTheme.status.errorColorHover};
+    }
+    &:active {
+      background-color: ${defaultTheme.status.errorColorActive};
+    }
+  `,
+  success: () => `
+    background-color: ${defaultTheme.status.successColor};
+    color: ${defaultTheme.textColorInverted};
+    &:hover {
+      background-color: ${defaultTheme.status.successColorHover};
+    }
+    &:active {
+      background-color: ${defaultTheme.status.successColorActive};
+    }
   `
 };
 
