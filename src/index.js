@@ -6,9 +6,9 @@ import {PrimaryButton, SecondaryButton, TertiaryButton} from "./components/Butto
 
 const App = () => (
   <>
-    <PrimaryButton>Hello World</PrimaryButton>
-    <SecondaryButton>Hello World</SecondaryButton>
-    <TertiaryButton>Hello World</TertiaryButton>
+    <PrimaryButton disabled>Hello World</PrimaryButton>
+    <SecondaryButton disabled>Hello World</SecondaryButton>
+    <TertiaryButton disabled>Hello World</TertiaryButton>
     <GlobalStyle />
   </>
   );
