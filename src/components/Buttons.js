@@ -8,8 +8,8 @@ export const Button = styled.button`
   padding: 0 1rem;
   font-size: ${typeScale.paragraph};
   line-height: 24px;
-  height: 2.5rem;
-  min-width: 2.5rem;
+  height: 3rem;
+  min-width: 3rem;
 `;
 
 export const PrimaryButton = styled(Button)`
