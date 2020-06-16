@@ -2,6 +2,11 @@
   "name": "react-play",
   "version": "0.1.0",
   "private": true,
+  "description": "A minimalistic design system for demonstrating modular react components",
+  "homepage": "https://github.com/murshidazher/react-play",
+  "author": "Murshid Azher",
+  "license": "MIT",
+  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
