@@ -6,7 +6,7 @@ import { withContexts } from "@storybook/addon-contexts/react";
 import { contexts } from "./contexts";
 
 addParameters({
-  // beackground based on theme
+  // background based on theme
   backgrounds: [
     { name: "Default theme", value: "#ffffff", default: true },
     { name: "Dark theme", value: "#050449" }
