@@ -12,7 +12,7 @@ export const contexts = [
       { name: "Dark Theme", props: { theme: darkTheme } }
     ],
     options: {
-      deep: true, // pass the `props` deeply into all wrapping components - pass it to all child components
+      deep: true, // pass the `props` deeply into all wrapping components
       disable: false, // disable this contextual environment completely
       cancelable: false // allow this contextual environment to be opt-out optionally in toolbar
     }
