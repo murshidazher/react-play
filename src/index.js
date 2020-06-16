@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PrimaryButton from "./components/Buttons.js";
+import {PrimaryButton, SecondaryButton, TertiaryButton} from "./components/Buttons.js";
 
 const App = () => <PrimaryButton>Hello World</PrimaryButton>;
 

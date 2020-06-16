@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
+const primaryIndigo = "#202E78";
+
 const Button = styled.button`
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
   border: none;
   border-radius: 6px;
   padding: 0 1rem;
@@ -11,9 +14,17 @@ const Button = styled.button`
   min-width: 2.5rem;
 `;
 
-const PrimaryButton = styled(Button)`
-  background-color: #202E78;
+export const PrimaryButton = styled(Button)`
+  background-color: ${primaryIndigo};
   color: white;
 `;
 
-export default PrimaryButton;
+export const SecondaryButton = styled(Button)`
+  background-color: ${primaryIndigo};
+  color: white;
+`;
+
+export const TertiaryButton = styled(Button)`
+  background-color: ${primaryIndigo};
+  color: white;
+`;
