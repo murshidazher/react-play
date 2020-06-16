@@ -3,7 +3,7 @@ import styled from "styled-components";
 const primaryIndigo = "#202E78";
 
 export const Button = styled.button`
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
   border: none;
   border-radius: 6px;
