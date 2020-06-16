@@ -10,9 +10,6 @@ A minimalistic design system for demonstrating modular React components using St
 - react-spring - for micro-interaction css animations using js.
 - [storybook](https://storybook.js.org/docs/guides/quick-start-guide/) - used for document the code and components.
 
-## Storybook Add-ons
-Packages that could be installed to give additional capabilities to storybook.
-
 
 ### Settings
 - add your own colors in `colors.js` file inside `utils`
