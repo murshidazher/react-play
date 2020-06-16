@@ -15,34 +15,65 @@ export const BUTTON_MODIFIERS = {
     font-size: ${typeScale.header5};
   `,
   warning: () => `
-    background-color: ${defaultTheme.status.warningColor};
-    color: ${defaultTheme.textColorInverted};
+    background: none;
+    color: ${defaultTheme.status.warningColor};
     &:hover, &:focus {
       background-color: ${defaultTheme.status.warningColorHover};
+      outline: 3px solid ${defaultTheme.status.warningColorHover};
+      outline-offset: 2px;
+      border: 2px solid transparent;
     }
+
     &:active {
       background-color: ${defaultTheme.status.warningColorActive};
     }
   `,
-  error: () => `
-    background-color: ${defaultTheme.status.errorColor};
+  primaryButtonWarning: () => `
+    background-color: ${defaultTheme.status.warningColor};
     color: ${defaultTheme.textColorInverted};
-    &:hover {
+  `,
+  secondaryButtonWarning: () => `
+    border: 2px solid ${defaultTheme.status.warningColor};
+  `,
+  error: () => `
+    background: none;
+    color: ${defaultTheme.status.errorColor};
+    &:hover, &:focus {
       background-color: ${defaultTheme.status.errorColorHover};
+      outline: 3px solid ${defaultTheme.status.errorColorHover};
+      outline-offset: 2px;
+      border: 2px solid transparent;
     }
     &:active {
       background-color: ${defaultTheme.status.errorColorActive};
     }
   `,
-  success: () => `
-    background-color: ${defaultTheme.status.successColor};
+  primaryButtonError: () => `
+    background-color: ${defaultTheme.status.errorColor};
     color: ${defaultTheme.textColorInverted};
-    &:hover {
+  `,
+  secondaryButtonError: () => `
+    border: 2px solid ${defaultTheme.status.warningColor};
+  `,
+  success: () => `
+    background: none;
+    color: ${defaultTheme.status.successColor};
+    &:hover, &:focus {
       background-color: ${defaultTheme.status.successColorHover};
+      outline: 3px solid ${defaultTheme.status.successColorHover};
+      outline-offset: 2px;
+      border: 2px solid transparent;
     }
     &:active {
       background-color: ${defaultTheme.status.successColorActive};
     }
+  `,
+  primaryButtonSuccess: () => `
+    background-color: ${defaultTheme.status.successColor};
+    color: ${defaultTheme.textColorInverted};
+  `,
+  secondaryButtonSuccess: () => `
+    border: 2px solid ${defaultTheme.status.warningColor};
   `
 };
 
