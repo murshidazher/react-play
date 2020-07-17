@@ -6,7 +6,8 @@
   "homepage": "https://github.com/murshidazher/react-play",
   "author": "Murshid Azher",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "repository": "https://github.com/murshidazher/react-play.git",
   "dependencies": {
     "@storybook/addon-a11y": "^5.3.14",
     "@storybook/addon-backgrounds": "^5.3.14",
@@ -27,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
@@ -35,6 +36,11 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
@@ -49,10 +55,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
     "@storybook/addon-actions": "^5.3.14",
     "@storybook/addon-links": "^5.3.14",
     "@storybook/addons": "^5.3.14",
     "@storybook/preset-create-react-app": "^2.0.0",
-    "@storybook/react": "^5.3.14"
+    "@storybook/react": "^5.3.14",
+    "auto": "^9.47.0",
+    "cross-env": "^7.0.2"
   }
 }
