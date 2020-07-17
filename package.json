@@ -1,5 +1,5 @@
 {
-  "name": "@murshidazher/react-play",
+  "name": "react-play-styled",
   "version": "1.0.3",
   "description": "A minimalistic design system for demonstrating modular react components",
   "homepage": "https://github.com/murshidazher/react-play",
@@ -17,6 +17,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "actions": "^1.3.0",
+    "err": "^2.1.11",
     "polished": "^3.4.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
