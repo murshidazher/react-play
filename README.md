@@ -1,6 +1,10 @@
 # React Play
 A minimalistic design system for demonstrating modular React components using Storybook.
 
+<p>
+<a href="https://wp-storybook.netlify.com/"><img src="https://github.com/storybookjs/brand/blob/master/badge/badge-storybook.svg" alt="Storybook"></a>
+<a href="https://app.netlify.com/sites/wp-storybook/deploys"><img src="https://api.netlify.com/api/v1/badges/be10a6d9-9a8a-48d9-ab01-ac42c9ea257c/deploy-status" alt="Netlify"></a> 
+</p>
 
 ## Toolings
 - react - 
