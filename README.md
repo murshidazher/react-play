@@ -1,9 +1,10 @@
-# React Play
-A minimalistic design system for demonstrating modular React components using Storybook.
+# [React Play Styled](https://github.com/murshidazher/react-play-styled) [![npm](https://img.shields.io/npm/v/react-play-styled.svg?label=&color=0080FF)](https://github.com/murshidazher/react-play-styled/releases/tag/v1.0.5)
 
-<p>
 [![storybook](https://img.shields.io/badge/docs%20with-storybook-f1618c.svg?style=flat-square)](https://github.com/murshidazher/react-play-styled)
-</p>
+
+> A minimalistic design system for demonstrating modular React components using Storybook and Styled Components.
+
+
 
 ## Toolings
 - react - 
