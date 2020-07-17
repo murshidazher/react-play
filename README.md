@@ -1,8 +1,8 @@
-## React Play
-A minimalistic design system for demonstrating modular React components using Storyboook.
+# React Play
+A minimalistic design system for demonstrating modular React components using Storybook.
 
 
-### Toolings
+## Toolings
 - react - 
 - styled-components - for css-in-js without worrying about specificity.
 - polished - for css normalization.
@@ -11,6 +11,6 @@ A minimalistic design system for demonstrating modular React components using St
 - [storybook](https://storybook.js.org/docs/guides/quick-start-guide/) - used for document the code and components.
 
 
-### Settings
+## Settings
 - add your own colors in `colors.js` file inside `utils`
 - `npm run storybook` to run storybook
