@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { animated, useSpring } from "react-spring";
-import { typeScale, primaryFont } from "../utils";
+import { typeScale, primaryFont } from "../shared";
 import { Illustrations, CloseIcon } from "../assets";
 import { PrimaryButton, SecondaryButton } from "./Buttons";
 import { EmailInput, PasswordInput } from "./TextFields";

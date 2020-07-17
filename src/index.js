@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from 'react-dom';
 import { ThemeProvider } from "styled-components";
-import { GlobalStyle, defaultTheme, darkTheme } from "./utils";
+import { GlobalStyle, defaultTheme, darkTheme } from "./shared";
 import { SignUpModal, PrimaryButton } from "./components";
 
 const App = () => {
