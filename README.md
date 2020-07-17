@@ -1,10 +1,11 @@
-# [React Play Styled](https://github.com/murshidazher/react-play-styled) [![npm](https://img.shields.io/npm/v/react-play-styled.svg?label=&color=0080FF)](https://github.com/murshidazher/react-play-styled/releases/tag/v1.0.5)
+# [react-play-styled](https://github.com/murshidazher/react-play-styled) [![npm](https://img.shields.io/npm/v/react-play-styled.svg?label=&color=0080FF)](https://github.com/murshidazher/react-play-styled/releases/tag/v1.0.5)
 
+[![npm](https://img.shields.io/npm/v/react-play-styled.svg?style=flat-square)](https://www.npmjs.com/package/react-play-styled)
 [![storybook](https://img.shields.io/badge/docs%20with-storybook-f1618c.svg?style=flat-square)](https://github.com/murshidazher/react-play-styled)
 
-> A minimalistic design system for demonstrating modular React components using Storybook and Styled Components.
+> A minimalistic react components library made with [styled-components](https://styled-components.com).
 
-
+- **UI Component Library**—I wanted to use [styled-components](https://styled-components.com) with [storybook](https://storybook.js.org/) and to build a CSS UI design system from scratch.
 
 ## Toolings
 - react - 
