@@ -1,4 +1,4 @@
-# v1.0.1 (Sat Jul 18 2020)
+# v1.0.4 (Sat Jul 18 2020)
 
 - Created first version of the design system, with `Buttons`, `Modals` and `TextFields` components.
 
