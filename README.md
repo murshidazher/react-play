@@ -19,3 +19,8 @@
 ## Settings
 - add your own colors in `colors.js` file inside `utils`
 - `npm run storybook` to run storybook
+
+### Peer Dependencies
+```bash
+npm i styled-components@4.1.2 react-spring@8.0.27 styled-components-modifiers@1.2.5 actions@1.3.0 polished@3.4.4
+```
