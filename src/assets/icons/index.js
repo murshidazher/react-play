@@ -1,1 +1,1 @@
-export * from "./icons/CloseIcon";
+export * from "./CloseIcon";

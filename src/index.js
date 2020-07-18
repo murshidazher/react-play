@@ -4,7 +4,8 @@ import * as themes from './shared/themes';
 import * as global from './shared/global';
 
 export { colors, typography, themes, global };
-
+  
+export * from './assets';
 export * from './components/Buttons';
 export * from './components/Modals';
 export * from './components/TextFields';

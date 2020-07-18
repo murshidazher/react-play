@@ -8,6 +8,13 @@
   "private": false,
   "main": "dist/index.js",
   "repository": "https://github.com/murshidazher/react-play.git",
+  "keywords": [
+    "components",
+    "react",
+    "react-component",
+    "ui",
+    "styled-components"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "cross-env BABEL_ENV=production babel src -d dist",

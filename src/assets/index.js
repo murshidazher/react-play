@@ -1,9 +1,2 @@
-import SignIn from "./illustrations/SignIn.svg";
-import SignUp from "./illustrations/SignUp.svg";
-
-export * from "./icons/CloseIcon";
-
-export const Illustrations = {
-  SignUp,
-  SignIn
-};
+export * from "./icons";
+export * from "./illustrations";
