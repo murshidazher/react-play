@@ -5,7 +5,7 @@ import * as global from './shared/global';
 
 export { colors, typography, themes, global };
   
-export * from './assets';
+// export * from './assets';
 export * from './components/Buttons';
-export * from './components/Modals';
+// export * from './components/Modals';
 export * from './components/TextFields';
