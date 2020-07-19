@@ -1,6 +1,7 @@
 # [react-play-styled](https://github.com/murshidazher/react-play-styled) [![npm](https://img.shields.io/npm/v/react-play-styled.svg?label=&color=0080FF)](https://github.com/murshidazher/react-play-styled/releases/tag/v1.0.5)
 
 [![npm](https://img.shields.io/npm/v/react-play-styled.svg?style=flat-square)](https://www.npmjs.com/package/react-play-styled)
+[![npm](https://img.shields.io/npm/dt/react-play-styled.svg?style=flat-square)](https://www.npmjs.com/package/react-play-styled)
 [![storybook](https://img.shields.io/badge/docs%20with-storybook-f1618c.svg?style=flat-square)](https://github.com/murshidazher/react-play-styled)
 
 > A minimalistic react components library made with [styled-components](https://styled-components.com).
